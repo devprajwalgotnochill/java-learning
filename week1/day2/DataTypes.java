@@ -17,10 +17,15 @@ public class DataTypes {
         double y = 1.0000000000001;
 
         System.out.println(y);
-        
 
+        boolean isTrue = false;
+
+        System.out.println(isTrue);
+
+        char x1 = 'x';
+
+        System.out.print(x1);
 
     }
 }
-
-// primitive vs reference data types
+ 
