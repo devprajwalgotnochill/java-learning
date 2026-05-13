@@ -6,6 +6,7 @@ public class logicalOperator {
             AND (&&)
             OR (||)
             NOT (!)
+            == //to compare the value 
          */
         // and
         int a = 10, b = 5;
