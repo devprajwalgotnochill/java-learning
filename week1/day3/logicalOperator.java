@@ -3,23 +3,21 @@ package week1.day3;
 public class logicalOperator {
     public static void main(String[] args) {
         /*
-            AND (&&)
-            OR (||)
-            NOT (!)
+            AND (&&) 1 1 = 1
+            OR (||)  1 0 = 1
+            NOT (!)  0 = 1  
             == //to compare the value 
          */
         // and
         int a = 10, b = 5;
-        if (a > 5 && b < 10) {
-            System.out.println("Both conditions are true");
-        }
+
+
+        System.out.println(a > 5 && b < 10);
         //or 
-        if (a > 5 || b < 10) {
-            System.out.println("At least one condition is true");
-        }
+        System.out.println(a > 5 || b < 10);
+      
+       
         //!= not equal to opposit of equal to 
-        if ((a > 5 && b < 10)!= false) {
-            System.out.println("Both conditions are true");
-        }
+        System.out.println((a > 5 && b < 10)!= false);
     }
 }
