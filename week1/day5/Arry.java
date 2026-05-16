@@ -19,9 +19,34 @@ public class Arry{
         
 
         //for loop to fetch or update the value of arry
-        for (int i : intArry) {
-            System.out.println(i);
+        // enhanced for loop
+        // for (int i : intArry) {
+            
+        // }
+
+        // multi dimentional arry 
+        int[][] multiArry = new int[3][3]; 
+        // [0][0]; = 1strow 1stcoumn
+
+
+        // using for loop
+        for (int i = 0; i< multiArry.length; i++){
+
+            for (int j = 0; j< 3; j++){
+                multiArry[i][j] = (i+7) * 12 * multiArry.length;
+            }
         }
+
+        // enhanced for loop
+        for (int[] row : multiArry) {
+
+            for (int num : row) {
+                System.out.print(num + " ");
+            }
+
+            System.out.println();
+        }
+        // 
 
     }
 }
