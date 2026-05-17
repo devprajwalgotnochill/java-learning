@@ -28,13 +28,20 @@ public class Arry{
         int[][] multiArry = new int[3][3]; 
         // [0][0]; = 1strow 1stcoumn
 
-
+        int randomNum;
         // using for loop
         for (int i = 0; i< multiArry.length; i++){
 
-            for (int j = 0; j< 3; j++){
-                multiArry[i][j] = (i+7) * 12 * multiArry.length;
+            for (int j = 0; j< multiArry[i].length; j++){
+
+                //type casting 
+                randomNum = (int)(Math.random() *10);
+                multiArry[i][j] = randomNum;
+
+                // multiArry[i][j] = x;
+                // x++;
             }
+
         }
 
         // enhanced for loop
